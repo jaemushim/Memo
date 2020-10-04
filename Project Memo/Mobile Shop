@@ -10,3 +10,33 @@ http://www.handphone.com/main/index.php
 장바구니 디자인 
 쿠팡 https://www.coupang.com/
 
+--------------------------------------------------------------------------------------------------------------
+Remind
+
+-cdn link 파일에도 상세히 주석달기
+
+-sorting 기능 isotope 라이브러리? 사용하기
+
+-section 마다 접는 기능 ? vsc 에서 접는거? 사용하기
+
+-Bootstrap - primary ,secondary color, 자주 사용하는 variavble, font size 14 16 18 20 설정
+
+-navbar bootstrap 으로 로고 메뉴 오른쪽 사이드바 3컬럼 구성일때 가운데 컬럼에  margin auto 하면 space between처럼 됨
+
+-strip : 홈페이지 가장 상단에 아주 얇고 긴 bar 형태의 로그인 회원가입 들어가는 자리 이름
+
+-header.php 부분에서 끝날때
+<!-- start #main-site -->
+<main id="main-site">
+
+--------------------------------------------------------------------------------------------------------------
+Key word 
+
+-Bootstrap - rounded pill 
+
+-owl-carousel
+
+-Nameming : 
+--Banner area / top sale section / special price section / banner ads / new phones section /blog area 
+--filter,button group
+--grid grid-item(style: 200px;) 
