@@ -93,3 +93,20 @@ $newArray = array();
 foreach($var in $oldArray){
 $newArray[] = $var;
 }  $newArray[] = $var << 배열에 값 하나씩 넣
+
+왜 public $conn 을 클래스안에 선언했는지 이유
+class DBController {
+   function __construct() {
+    $servername = "localhost";
+    $username = "root";
+    $password = '';
+    public $conn = null;
+    try {
+      $this->conn = new PDO("mysql:host=$servername;dbname=mobile-shop", $username, $password);
+      // set the PDO error mode to exception
+      $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+      } catch(PDOException $e) {
+      echo "Connection failed: " . $e->getMessage();
+      }
+  } 
+}
