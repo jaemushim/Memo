@@ -1,1 +1,53 @@
+array (array, array, array) 있을경우 안에있는 array값을 사용하려할때는  array_map 으로 사용할수있다
+
+jquery slim 으로 cdn 가져오면 ajax 실행되지 않는다.
+
+jquery php ajax 에서 php 에서는 보낼 데이터에 encode 해줘야하고 (전송할때 object into string)
+jquery 에서는 받은데이터 json.parse 해줘야 한다 (사용할때 string to object)
+
+ajax 받은 json 은 string 으로 되어있으니까 숫자 계산을 할때는 string to number 로 함수 실행해주어야 한다.
+
+npm = 노드js로 만들어진 프로그램을 쉽게 설치해주는 일종의 앱 스토어
+
+
+리액트 컴포넌트 만들때 하나의 최상위 태그로 해야한다 
+
+jsx = 페이스북이 만든 컴퓨터 언어
+jsx로 코드작성하면 create react app이 알아서 자바스크립트 코드를 converting 해준다.
+
+리액트의 컴포넌트를 바라보는 첫번째 시각 : 정리정돈 하는 도구
+what is refactoring?
+
+독립하기위한 가장 중요한 조건 2가지 
+-설명서를 볼 줄 아는것
+-헌재상태를 측정하고 분석하는것 (가설,시험)
+여기에 촉매재가 되는것 검색+질문
+
+리액트 
+array asign array from 
+객체 배열 복사 
+원본관련
+
+Refactoring 깔금하게 코드를 만들어가는것  
+
+중요! 기존의 original content를 직접수정하지않고 새로운 배열을 만든다 .
+불변 원본을 바꾸지않는것 for 성능을 튜닝할때 필요하다
+->배열이나 객체를 수정하려할때는 게를 복제한다 복사한것을 수정해서 게를 넣는다.
+
+update가 제일어렵다 . read+create
+
+switch가 있으면 switch 아래에있는 컴포넌트 하나만 화면에 출력하고 
+switch가 없으면 일치하는 모든것을 출력
+switch 로 라우터를 감싸게 되면 리액트 라우터 돔은 path와 일치하는 첫번째 컴포넌트가 발견되면 나머지 컴포넌트는 버린다.
+
+for while 로 만들때 key값 줘야함컴포넌트를 사용하는 쪽에서는 그 컴포넌트가 제공하는 props를 통해서 그 컴포넌트를 이용할수있고
+그 컴포넌트를 만드는쪽에서는 state라고하는 props와는 구분되는 데이터를 통해서 내부의 작업들을 한다.
+
+in Class 
+state 를 세팅(초기화) 하고 그 state값을 사용하고 state값을 변경하고...
+functional 에서는 할수없었다 단순히 prop를 화면에 표시되는것만 할수 있었다.
+다양한 기능성은 Class 에서 사용해야했다.
+Hook을 통해서 함수방식에서 state를 사용할 수 있게 되었다.
+
+hook 에서 배열 2번쨰 값이 상태를 바꾸는 함수
 
